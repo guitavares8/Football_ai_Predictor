@@ -9,10 +9,10 @@ st.set_page_config(page_title="AI Football Predictor", page_icon="⚽", layout="
 # 2. Carregar os TRÊS Cérebros e os Dados
 @st.cache_data
 def carregar_dados():
-    modelo_1x2 = joblib.load('modelo_xgboost.pkl')
-    modelo_golos = joblib.load('modelo_xgboost_golos.pkl')
-    modelo_btts = joblib.load('modelo_xgboost_btts.pkl')
-    colunas = joblib.load('colunas.pkl')
+    modelo_1x2 = joblib.load('modelos/modelo_xgboost.pkl')
+    modelo_golos = joblib.load('modelos/modelo_xgboost_golos.pkl')
+    modelo_btts = joblib.load('modelos/modelo_xgboost_btts.pkl')
+    colunas = joblib.load('modelos/colunas.pkl')
     df = pd.read_csv('data/base_processada.csv')
     
     equipas = sorted(list(set(df['HomeTeam'].unique()) | set(df['AwayTeam'].unique())))
