@@ -4,8 +4,8 @@ Um projeto de Machine Learning focado na previsão quantitativa de resultados de
 
 Este sistema não se baseia apenas em médias básicas. O algoritmo utiliza dados históricos, o sistema de ranking **Elo**, estatísticas avançadas de forma (como Streaks e janelas de *Expected Goals*) e um motor de **Time Decay (Decaimento Exponencial)** para forçar a Inteligência Artificial a dar prioridade à forma atual das equipas em vez do histórico distante.
 
-![Screenshot da Aplicação](insere_aqui_o_nome_da_tua_imagem.png)
-> *(Nota: Tira um print do teu site a funcionar, guarda na pasta do projeto com o nome `print.png` e substitui o nome aqui em cima)*
+![Screenshot da Aplicação](print_app.png)
+
 
 ---
 
